@@ -1,9 +1,10 @@
 .main {
-    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px 20px;
     justify-content: space-between;
+    height: 100vh;
+    overflow: auto;
 }
 
 .main > div{
